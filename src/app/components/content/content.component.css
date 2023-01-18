@@ -1,0 +1,27 @@
+.content{
+    width: 100%;
+    padding: 0px;
+    margin: 20px;
+    background-color: rgb(182, 219, 252);
+}
+
+.content-article{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 100%;
+    padding: 0 1%;
+}
+
+.content-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    border: 1px black solid;
+    border-radius: 8px;
+    margin: 10px 0;
+}

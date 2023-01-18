@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'navbar navbar navbar navbar navbar navbar navbar'
+    'lista   lista   content   content   content   content   content'
+    ;
+}
+
+.grid-navbar{
+    grid-area: navbar;
+}
+
+.grid-lista{
+    grid-area: lista;
+}
+
+.grid-content{
+    grid-area: content;
+}

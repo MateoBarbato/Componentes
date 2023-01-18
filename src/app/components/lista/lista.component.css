@@ -1,0 +1,17 @@
+.lista-container{
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+
+        
+}
+
+.lista-ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.lista-li{
+    margin:10% 0
+}
