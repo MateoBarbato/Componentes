@@ -2,7 +2,9 @@
     width: 100%;
     padding: 0px;
     margin: 20px;
-    background-color: rgb(182, 219, 252);
+    /* background-color: rgb(182, 219, 252); */
+    /* border: 1px solid rgb(97, 94, 94);
+    border-radius: 7px; */
 }
 
 .content-article{
@@ -12,6 +14,7 @@
     gap: 2%;
     width: 100%;
     padding: 0 1%;
+    
 }
 
 .content-section{
@@ -19,9 +22,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 30%;
     height: 250px;
-    border: 1px black solid;
+    border: 1px rgb(167, 154, 154) solid;
     border-radius: 8px;
     margin: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

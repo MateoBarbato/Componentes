@@ -1,17 +1,30 @@
 .lista-container{
-    width: 100%;
-    background-color: rgb(230, 224, 224);
+    width: 90%;
+    /* background-color: rgb(230, 224, 224); */
+    border: 1px solid rgb(97, 94, 94);
+    padding: 1rem;
+    border-radius: 7px;
+    margin-top: 20px;
 
         
 }
 
 .lista-ul{
     display: flex;
+    justify-content: center;
+    align-items: left;
     flex-direction: column;
     list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    
 
 }
 
 .lista-li{
-    margin:10% 0
+    padding: 10%;
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

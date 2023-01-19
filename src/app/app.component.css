@@ -1,8 +1,9 @@
 .grid-container{
+    box-sizing: border-box;
     display: grid;
     grid-template-areas: 
     'navbar navbar navbar navbar navbar navbar navbar'
-    'lista   lista   content   content   content   content   content'
+    'lista   content content  content   content   content   content '
     ;
 }
 
